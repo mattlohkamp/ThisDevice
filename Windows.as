@@ -15,7 +15,11 @@
 		}
 		
 		private function ThisDeviceComplete(e:Event):void	{
-			trace(e,thisDevice);
+			trace('make:',thisDevice.make);
+			trace('model:',thisDevice.model);
+			trace('cpu:',thisDevice.cpu);
+			trace('ram:',thisDevice.ram);
+			trace('hdds:',thisDevice.hdd);
 		}
 	}
 	
